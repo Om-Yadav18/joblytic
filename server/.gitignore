@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Environment Variables (Mongo URI, Gemini Keys, API Keys)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Uploaded Resumes & Generated Files
+uploads/
+public/uploads/
+*.pdf
+*.docx
+*.doc
+*.txt
+
+# Temp & Cache Files
+temp/
+tmp/
+.temp/
+.cache/
+
+# OS / Editor Files
+.DS_Store
+.vscode/
+.idea/
